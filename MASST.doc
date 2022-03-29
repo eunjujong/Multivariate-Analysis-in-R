@@ -1,0 +1,173 @@
+The following is a brief description of the data in file MASST.DAT
+(Questions 4.9, 5.12, 6.9, 7.5, 8.9)
+------------------------------------------------------------
+Variable        Variable        Description
+                Location
+                (Columns)
+------------------------------------------------------------
+ID              1-4             Identification number from 1
+                                to 598
+V1              5-6             Economy
+V2              7-8             Convenience
+V3              9-10            Flexibility
+V4              11-12           Safe from dangerous people
+V5              13-14           Low energy use per passenger
+V6              15-16           Dependability
+V7              17              10% increase
+V8              18              20% increase
+V9              19              30% increase
+V10             20              40% increase
+V11             21              50% increase
+V12             22              60% increase
+V13             23              70% increase
+V14             24              80% increase
+V15             25              90% increase
+V16             26              100% increase
+V17             27              150% increase
+V18             28              > 150% increase
+V19-V38         29-48           Energy crisis opinions
+V39             49              Miles to work or school
+V40             50              Age
+V41             51              Gender
+V42             52              Marital Status
+V43             53              Driver's License
+V44             54              Number of adults in
+                                household
+V45             55              Number of children in
+                                household
+V46             56              Number of cars in household
+V47             57              Respondent's education
+V48             58              Spouse's education
+V49             59              Years of residence in city
+V50             60              Number of full-time workers
+V51             61              Annual household income
+V52             62              Ethnic background
+------------------------------------------------------------
+
+The following table provides a more detailed description of each variable.
+
+------------------------------------------------------------
+Variable        Value           Description
+------------------------------------------------------------
+V1-V6           1-25     Feature saliences affecting mode of
+                         transportation (car,bus,taxi) to
+                         work/school 25 = highest salience
+                         1 = lowest salience
+
+V7-V18          1-5      Degree to which mass transportation
+                         will be used for going to
+                         work/school for a given percentage
+                         increase in gas prices 1 = will not
+                         use it   5 = will use it very
+                         frequently
+
+V19-V38         1-5      Opinions on statements about
+                         energy crisis
+                         1 = strongly disagree
+                         5 = strongly agree
+
+V39             1               less than 1 mile
+                2               1-3 miles
+                3               4-6 miles
+                4               7-9 miles
+                5               10-12 miles
+                6               13-15 miles
+                7               More than 15 miles
+
+V40             1               Less than 18 years
+                2               18-25 years
+                3               26-35 years
+                4               36-45 years
+                5               46-65 years
+                6               More than 65 years
+
+V41             1-2             1 = Male  2 = Female
+
+V42             1-2             1 = Married   2 = Not married
+
+V43             1               Have valid driver's license
+                2               Do not have valid driver's license
+
+V44-V48         1               Less than high school
+                2               Completed high school
+                3               Completed high school and some formal
+                                vocational or technical training
+                4               Some college
+                5               Bachelors degree
+                6               Some graduate study
+
+v49             1               Less than 2 years
+                2               2-4 years
+                3               5-7 years
+                4               8-10 years
+                5               More than 10 years
+
+V51             1               Less than  5,000
+                2               5,000-9,999
+                3               10,000-14,999
+                4               15,000-19,999
+                5               20,000-24,999
+                6               25,000-29,999
+                7               30,000-34,999
+                8               35,000 +
+
+V52             1               Caucasian
+                2               African-American
+                3               Other
+------------------------------------------------------------
+
+Respondents expressed their opinions on the following statements about the
+energy crisis :
+
+V19. If the energy shortage gets any worse, the country will be in bad shape.
+V20. The worst of the energy crisis has passed.
+V21. Science and technology will be able to resolve the energy crisis without
+     conservation.
+V22. Saving energy requires you to make major sacrifices.
+V23. The energy crisis is for real.
+V24. Utility companies should be allowed to burn cheaper fuel even though this
+     would cause more pollution.
+V25. The petroleum companies have not done all they can to solve the energy
+     problem.
+V26. Congress has done all it can to solve the energy problem.
+V27. Rationing of energy resources will be necessary for at least the next five
+     years.
+V28. Conserving electricity will save me money in the long run.
+V29. The natural gas companies have done all they can to solve the energy
+     problem.
+V30. My electricity bill would be the same no matter what I did.
+V31. There is not much an average citizen can do to save electricity.
+V32. President Carter has done all he can to solve the energy problem.
+V33. At this point in time our traditional energy resources (coal, oil, natural
+     gas, etc.) are insufficient to continue energy consumption at the present
+     rate.
+V34. It would be easy for me to cut down on the use of electricity in my home.
+V35. We should forget about reducing pollution until our energy problems are
+     solved.
+V36. My personal conservation efforts have little impact on total consumption of
+     energy.
+V37. Because of the abundance of coal, industries should be encouraged to switch to coal
+     as a fuel despite the air pollution it causes.
+V38. The electric companies have not done all they can to solve the energy
+     problem.
+
+Question 7.
+
+Indicate below, by circling the appropriate number, the degree to which you will
+use mass transportation for going to work (or school) for a given percentage
+increase in gasoline prices (assume that the current price of gasoline is on the
+average 1.20 per gallon).
+---------------------------------------------------------------------------------
+Increase in     Will not  Will use it   Will use it  Will use it  Will use it
+gasoline price  use it    infrequently  moderately   frequently   very frequently
+---------------------------------------------------------------------------------
+  10%              1            2           3           4               5
+  20%              1            2           3           4               5
+  .                .            .           .           .               .
+  .                .            .           .           .               .
+  .                .            .           .           .               .
+ 100%              1            2           3           4               5
+ 150%              1            2           3           4               5
+More than 150%     1            2           3           4               5
+---------------------------------------------------------------------------------
+

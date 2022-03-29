@@ -1,0 +1,81 @@
+        Description of Depression Data (Questions: 8.7, 10.6, 11.5)
+The data is in free format. That is, there is atleast one blank column between successive variables.
+_________________________________________________________________________
+             
+  Variable Variable
+  Number   Name     Description
+___________________________________________________________________________
+  1        OBS      Observation number from 1 to 294
+  2        ID       Identification number from 1 to 294
+  3        SEX      1 = male; 2 = female
+  4        AGE      Age in years at last birthday
+  5        MARITAL  1=never married; 2=married; 3=divorced
+  6        EDUCAT   1=less than high school; 2 = some high school
+                    3= finished high school; 4=some college;
+                    5= finished bachelor's degree;
+                    6= finished master's degree;
+                    7= finished doctorate
+  7        EMPLOY   1 = full time; 2 = part time; 3 = unemployed;
+                    4 = retired; 5 = houseperson; 6 = in school;
+                    7 = other
+  8        INCOME   Thousands of dollars per year
+  9        RELIG    1 = Protestant; 2 = Catholic; 3 = Jewish;
+                    4 = none; 5 = other
+10-29      C1-C20   "Please look at this card and tell me the number
+                     that best describes how often you felt or
+                     behaved this way during past week."
+                     20 items from depression scale (wording of the
+                     items is given below)
+                     0 = rarely or none of the time (less than day);
+                     1 = some or a little of the time (1-2 days);
+                     2 = occasionally or a moderate amount of the
+                         time (3-4 days);
+                     3 = most or all of the time (5-7 days)
+  30       CESD      Sum of C1-C20;
+                     0  = lowest level possible;
+                         60 = highest level possible
+  31       CASES     0 = normal;
+                     1 = depressed, where depressed is CESD > 16
+  32       DRINK     Regular drinker? 1 = yes; 2 = no
+  32       HEALTH    General health? 1 = excellent; 2 = good;
+                                     3 = fair; 4 = poor
+  34       REGDOC    Have a regular physician? 1 = yes; 2 = no
+  35       TREAT     Has a doctor prescribed or recommended that you
+                     take medicine, medical treatments, or change
+                     your way of living in such areas as smoking,
+                     special diet, exercise, or drinking?
+                     1 = yes; 2 = no
+  36       BEDDAYS   Spent entire day(s) in bed in last two months?
+                     0 = no; 1 = yes
+  37       ACUTEILL  Any acute illness in last two months?
+                     0 = no; 1 = yes
+  38       CHRONILL  Any chronic illness in last year?
+                     0 = no; 1 = yes
+__________________________________________________________________________
+
+                Description of Depression Scale Items
+
+1.   I felt that I could not shake off the blues even with the help of my
+     family or friends.
+2.   I felt depressed.
+3.   I felt lonely.
+4.   I had crying spells.
+5.   I felt sad.
+6.   I felt fearful.
+7.   I thought my life had been a failure.
+8.   I felt that I was as good as other people.
+9.   I felt hopeful about the future.
+10.  I was happy.
+11.  I enjoyed life.
+12.  I was bothered by things that usually don't bother me.
+13.  I did not feel like eating; my appetite was poor.
+14.  I felt that everything was an effort.
+15.  My sleep was restless.
+16.  I could not "get going".
+17.  I had trouble keeping my mind on what I was doing.
+18.  I talked less than usual.
+19.  People were unfriendly.
+20.  I felt that people disliked me.
+
+Note: Each of the above items was written on a card and the respondent was      asked to tell the interviewer the number that best describes how often he or she felt or behaved this way during the past week. Thus respondents who       answered item 2, "I felt depressed," could respond 0 through 3, depending       on whether this particular item applied to them rarely or none of the time      (less than 1 day: 0), some or little of the time (1-2 days: 1),     occasionally or a moderate amount of time (3-4 days: 2), or most or all of      the time (5-7 days: 3).
+
